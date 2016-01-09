@@ -1,0 +1,45 @@
+pio 0 PWM
+
+pattern PWM0 
+    PWM OFF 0    
+
+pattern PWM10 RPT
+    PWM ON  10
+    PWM OFF 90
+    
+pattern PWM20 RPT
+    PWM ON  20
+    PWM OFF 80
+    
+pattern PWM30 RPT
+    PWM ON  30
+    PWM OFF 70
+    
+pattern PWM40 RPT
+    PWM ON  40
+    PWM OFF 60
+    
+pattern PWM50 RPT
+    PWM ON  50
+    PWM OFF 50
+    
+pattern PWM60 RPT
+    PWM ON  60
+    PWM OFF 40
+    
+pattern PWM70 RPT
+    PWM ON  70
+    PWM OFF 30
+    
+pattern PWM80 RPT
+    PWM ON  80
+    PWM OFF 20
+    
+pattern PWM90 RPT
+    PWM ON  90
+    PWM OFF 10
+    
+pattern PWM100
+    PWM ON  0
+    
+

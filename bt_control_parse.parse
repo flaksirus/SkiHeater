@@ -1,0 +1,5 @@
+{HEATER ? \r} : command
+
+{GETHEAT ? \r} : command_heat_get
+{SETHEAT %d:value \r} : command_heat_set
+{GETTEMP ? \r} : command_temp_get

@@ -1,0 +1,51 @@
+<project buildenvironment="{84faf732-1340-4049-9094-244167adf571}" buildenvironmentname="vm" executionenvironmentoption="" buildenvironmentoption="" executionenvironmentname="vm" executionenvironment="{2b2c6868-a56e-4266-962a-cddf1c979343}" >
+ <folder name="C Files" >
+  <extension name="c" />
+  <file path="main.c" />
+  <file path="BtTask.c" />
+  <file path="PioTask.c" />
+ </folder>
+ <folder name="Header Files" >
+  <extension name="h" />
+  <file path="main.h" />
+  <file path="BtTask.h" />
+  <file path="PioTask.h" />
+  <file path="global.h" />
+ </folder>
+ <file path="Heater.led" />
+ <file path="bt_control_parse.parse" />
+ <properties currentconfiguration="Release" >
+  <configuration name="Debug" >
+   <property key="buildMatch" >(file):(line):</property>
+   <property key="buildtransport" >1</property>
+   <property key="characters" >1</property>
+   <property key="debug" >0</property>
+   <property key="debugtransport" >[SPITRANS=USB SPIPORT=0]</property>
+   <property key="defines" ></property>
+   <property key="firmware" >0</property>
+   <property key="libs" >connection, spp, region, service,bdaddr,sdp_parse</property>
+   <property key="messages" >1</property>
+   <property key="output" ></property>
+   <property key="pcvalue" >1</property>
+   <property key="primitives" >1</property>
+   <property key="stacksize" ></property>
+   <property key="timestamps" >1</property>
+  </configuration>
+  <configuration name="Release" >
+   <property key="buildMatch" >(file):(line):</property>
+   <property key="buildtransport" >1</property>
+   <property key="characters" >0</property>
+   <property key="debug" >1</property>
+   <property key="debugtransport" >[SPITRANS=USB SPIPORT=0]</property>
+   <property key="defines" ></property>
+   <property key="firmware" >0</property>
+   <property key="libs" >connection, spp, region, service,bdaddr,sdp_parse</property>
+   <property key="messages" >0</property>
+   <property key="output" ></property>
+   <property key="pcvalue" >0</property>
+   <property key="primitives" >0</property>
+   <property key="stacksize" ></property>
+   <property key="timestamps" >0</property>
+  </configuration>
+ </properties>
+</project>
