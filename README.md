@@ -3,7 +3,7 @@ Firmware for low cost bluetooth module HC-04 based on CSR SoC BC417.
 
 To work with this project (and any other projects for that chip) you need to install the BlueLab software which you can get on https://www.csrsupport.com/ after registration as developer. Also there is much docs for CSR products.
 
-To program and debug chip you need programmer, there is two way:
+To program and debug chip you need programmer, there is two way:          
 1) LPT programmer (as I now doesn't work on Win7 x64 and later), you must have full support LPT on your computer, becouse USB<->LPT converters doesn't work at all. You can see scheme here http://microsin.ru/images/stories/hard/CSR-LPT-flasher.PNG (you need external power supply for module).
 2) USB<->SPI programmer. It can be genuine CSR programmer for 300$ or you can see this project of reverse engeneered project for TI stelleris launchpad (will cost you about 15$ if you haven't it) https://github.com/Frans-Willem/CsrUsbSpiDeviceRE
 
